@@ -2,12 +2,15 @@
   "name": "site",
   "version": "1.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "http-server site"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/is2ei/site.git"
   },
   "author": "Issei Horie",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
 }
