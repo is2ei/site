@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+  --primary-color: #9da65d;
+  --secondary-color: #6c733d;
+  --tertiary-color: #8c8c88;
+  --quaternary-color: #202426;
+  --text-primary-color: #f2f2f2;
+
+  --global-header-height: 50px;
+}
+
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+}
+
+body {
+  background-color: var(--secondary-color);
+  scroll-behavior: smooth;
+}
+
+body::after {
+  background-attachment: fixed;
+  background-image: url('./background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 0;
+  content: "";
+  left: 0;
+  opacity: 0.5;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+p {
+  color: var(--text-primary-color);
+}
+
+.global-header {
+  background-color: var(--tertiary-color);
+  height: var(--global-header-height);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.container {
+  margin-top: var(--global-header-height);
+}
+
+.introduction-container {
+  background-color: var(--primary-color);
+  display: flex;
+  height: 300px;
+  margin-bottom: 400px;
+}
+
+.introduction-description {
+  width: 50%;
+}
+
+.introduction-portrait {
+  height: 200px;
+}
+
+.contact-container {
+  background-color: var(--primary-color);
+  border-top-left-radius: 90%;
+  height: 300px;
+}
+
+.global-footer {
+  background-color: var(--quaternary-color);
+  bottom: 0;
+  height: 50px;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
