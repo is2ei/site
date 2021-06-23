@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   entry: {
@@ -9,6 +10,12 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: "Issei Horie's homepage",
       template: 'src/index.html'
+    }),
+    new CopyPlugin({
+      patterns: [
+        { from: "src/assets/resume.pdf", to: "assets" },
+        { from: "src/assets/portrait.png", to: "assets" }
+      ]
     })
   ],
   output: {
