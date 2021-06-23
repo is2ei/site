@@ -1,5 +1,5 @@
 {
-  "name": "site",
+  "name": "www.is2ei.com",
   "version": "1.0.0",
   "scripts": {
     "start": "webpack serve --open --config webpack.dev.js",
