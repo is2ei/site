@@ -13,6 +13,7 @@ module.exports = {
     }),
     new CopyPlugin({
       patterns: [
+        { from: "src/assets/favicon.ico", to: "assets" },
         { from: "src/assets/resume.pdf", to: "assets" },
         { from: "src/assets/portrait.png", to: "assets" }
       ]
