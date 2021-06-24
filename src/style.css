@@ -66,7 +66,7 @@ p {
  */
 .container {
   background-color: var(--secondary-color);
-  height: 1500px;
+  height: 1620px;
   padding-top: var(--global-header-height);
   position: relative;
 }
@@ -86,6 +86,17 @@ p {
   top: 0;
 }
 
+.triangle {
+  width: 0; 
+  height: 0; 
+  border-left: 120px solid transparent;
+  border-right: 120px solid transparent;
+  border-top: 120px solid var(--primary-color);
+  margin-left: auto;
+  margin-right: 200px;
+  position: relative;
+}
+
 .blank-space {
   height: 500px;
 }
@@ -99,7 +110,7 @@ p {
   display: flex;
   height: 300px;
   margin-top: calc(0px - var(--global-header-height));
-  padding-left: 60px;
+  padding-left: 70px;
   padding-top: var(--global-header-height);
   position: relative;
 }
@@ -107,7 +118,7 @@ p {
 .introduction-portrait {
   height: 200px;
   margin-left: auto;
-  margin-right: 200px;
+  margin-right: 210px;
 }
 
 .description {
