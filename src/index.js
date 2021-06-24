@@ -4,16 +4,16 @@ import './style.css';
 // https://color.adobe.com/trends
 const colorSets = [
   { // 1
-    primary: '#D9A404',
-    secondary: '#BF7E04',
-    tertiary: '#A6916A',
-    quaternary: '#733122',
-    textPrimary: '#D99B84',
+    primary: '#D99B84',
+    secondary: '#A6916A',
+    tertiary: '#D9A404',
+    quaternary: '#BF7E04',
+    textPrimary: '#733122',
   },
   { // 2
-    primary: '#D95995',
-    secondary: '#73204E',
-    tertiary: '#F2B6D7',
+    primary: '#73204E',
+    secondary: '#F2B6D7',
+    tertiary: '#D95995',
     quaternary: '#325935',
     textPrimary: '#C9DFF2',
   },

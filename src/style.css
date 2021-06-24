@@ -20,7 +20,7 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
   height: 100%;
   scroll-behavior: smooth;
-  transition: all 1s;
+  transition: all 1s ease-in-out;
 }
 
 h2 {
@@ -33,7 +33,9 @@ a {
 }
 
 p {
+  color: inherit;
   margin: 0;
+  transition: all 1s ease-in-out;
 }
 
 /*
@@ -44,7 +46,7 @@ p {
   height: var(--global-header-height);
   position: fixed;
   top: 0;
-  transition: background-color 1s;
+  transition: all 1s ease-in-out;
   width: 100%;
   z-index: 2;
 }
@@ -57,7 +59,7 @@ p {
 
 .navigation-link {
   color: var(--text-primary-color);
-  transition: color 1s;
+  transition: all 1s ease-in-out;
 }
 
 .navigation-link-container {
@@ -72,7 +74,7 @@ p {
   height: 1620px;
   padding-top: var(--global-header-height);
   position: relative;
-  transition: background-color 1s;
+  transition: all 1s ease-in-out;
 }
 
 .container:before {
@@ -99,7 +101,7 @@ p {
   margin-left: auto;
   margin-right: 200px;
   position: relative;
-  transition: border-color 1s;
+  transition: all 1s ease-in-out;
 }
 
 .blank-space {
@@ -118,7 +120,7 @@ p {
   padding-left: 70px;
   padding-top: var(--global-header-height);
   position: relative;
-  transition: background-color 1s;
+  transition: all 1s ease-in-out;
 }
 
 .introduction-portrait {
@@ -142,7 +144,7 @@ p {
   padding-left: 60px;
   padding-top: var(--global-header-height);
   position: relative;
-  transition: background-color 1s;
+  transition: all 1s ease-in-out;
 }
 
 .contact-links-container {
@@ -181,5 +183,5 @@ p {
   position: fixed;
   text-align: center;
   width: 100%;
-  transition: all 1s;
+  transition: all 1s ease-in-out;
 }
